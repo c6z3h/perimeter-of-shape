@@ -60,7 +60,6 @@ public class PerimeterOfShape {
 		int []points = new int[30];
 		PerimeterOfShape.readFile("src/resources/example3.txt", points);
 		System.out.println("Array stored values are " + Arrays.toString(points));
-		HashMap<String, String> troll = new HashMap<String, String>();
 		double length = 0;
 		System.out.println( PerimeterOfShape.Perimeter(points, length));
 
